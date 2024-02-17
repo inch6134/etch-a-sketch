@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+}
+
+.container{
+    margin: 20px 0;
+}
+
+#controls {
+    width: 90%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#color-selector {
+    height: 48px;
+    width: 48px;
+    background-color: black;
+}
+
+button {
+    font-size: 20px;
+    height: 36px;
+    width: 40px;
+    text-align: center;
+}
+
+#slider-pane {
+    height: 28px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#frame {
+    background-color: red;
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-bottom: 60px; */
+    border-radius: 5px;
+}
+
+#frame-text {
+    margin: 15px;
+    font-size: 28px;
+    color: gold;
+}
+
+#canvas {
+    max-width: 960px;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.knob {
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#knob-container {
+    margin: 5px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
