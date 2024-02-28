@@ -89,3 +89,12 @@ button {
   text-align: center;
   background-color: antiquewhite;
 }
+
+#slider-pane {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  height: 35px;
+}
