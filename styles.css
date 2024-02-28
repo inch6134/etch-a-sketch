@@ -86,8 +86,10 @@ button {
 }
 
 .grid-square {
-  text-align: center;
-  background-color: antiquewhite;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #slider-pane {
@@ -101,5 +103,4 @@ button {
 
 #slider-pane > input {
   visibility: hidden;
-
 }
