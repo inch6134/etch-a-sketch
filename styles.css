@@ -98,3 +98,8 @@ button {
   box-sizing: border-box;
   height: 35px;
 }
+
+#slider-pane > input {
+  visibility: hidden;
+
+}
